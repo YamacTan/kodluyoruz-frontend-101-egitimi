@@ -21,6 +21,10 @@ console.log(
 )
 
 // string(metinsel) bilgileri int ve float'a donusturmek
+
+//Parse kullandıgımız zaman icinde sayısal kısım varsa ve sayısal baslıyorsa
+//O kismi alır. Number icine sokacagımız stringin direkt sayı olması gerekir.
+
 let number1 = "11"
 number1 = parseInt(number1)
 console.log("number1: ", number1, typeof(number1) )

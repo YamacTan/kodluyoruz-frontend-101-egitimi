@@ -11,6 +11,8 @@ console.log(
     "Fiyat: ", total 
 )
 
+//Buradaki olay aslinda bir cesit casting.
+//Number ifadesi bizim icin bir constructor tutuyor ve icine istedigimizi atabiliyoruz.
 let stringNumber = "11"
 console.log(stringNumber)
 let newNumber = Number(stringNumber)

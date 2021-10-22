@@ -8,7 +8,7 @@ console.log(isActive)
 
 let userName;
 let isUserName = Boolean(userName)
-console.log(isUserName)
+console.log(isUserName) //Icınde herhangi bir bilgi olmadigi icin false donecek. 
 
 Boolean("11") // true
 Boolean("0") // true
@@ -16,12 +16,12 @@ Boolean("") // false
 
 userName = "user"
 
-console.log("User Name:", Boolean(userName))
+console.log("User Name:", Boolean(userName)) //Icerisinde bilgi var. True. 
 
 // 0 ,-0, null, false, NaN, undefined, ("") ->
 Boolean(0) //  false
 Boolean(-0) // false
-Boolean(-0.1) // true
+Boolean(-0.1) // true //Sıfır disindaki her sey bize true verir. 
 Boolean(0 === 0) // true
 
 // Not: Karar Yapilari Kisminda Tekrar Anlatilacak

@@ -8,6 +8,10 @@ let email = username + "@" + DOMAIN
 
 // console.log("Merhaba", username, "sitemize hosgeldin", "mail adresin:", email)
 
+//Template literals dedigimiz olay klavyedeki backtick ile yapiliyor.
+//Basmak istedigin bilgiyi istedigin kadar satirda bölmeden basabilirsin. 
+// ${} kullanarak satirlarin icinde istedigin variable bilgisini basabilirsin. 
+
 let info = `
 Merhaba ${username} sitemize hosgeldin.. 
 mail adresin: ${email}
