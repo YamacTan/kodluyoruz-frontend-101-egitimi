@@ -19,7 +19,7 @@ console.log(firstName)
 firstName = firstName.toLowerCase()
 console.log(firstName)
 // String Icinde Istedigimiz Bilgiyi Aramak ve Yerini Bulmak -> search:
-console.log(email.search("@"))
+console.log(email.search("@")) //15 olarak dondu. Asagıda verify ediyoruz.
 console.log( email[15] )
 
 email.search('olmayan') // -1
@@ -48,4 +48,5 @@ console.log(
 // Ilk Harflerini Buyuk Yapmak
 firstName = "FIRST"
 lastName = "LAST"
+//Template literals kullanildi.
 let fullName = `${firstName[0].toUpperCase()}${firstName.slice(1).toLowerCase()} ${lastName[0].toUpperCase()}${lastName.slice(1).toLowerCase()}`
