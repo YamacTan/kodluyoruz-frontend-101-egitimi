@@ -12,7 +12,7 @@ function hello() {
 
 // hata alabiliriz...
 // function userCheck () {
-//     if (userName && age >= 18) {
+//     if (userName && age >= 18) { 
 //         info.innerHTML = "ehliyet alabilirsiniz"
 //     } else if (!userName) {
 //         info.innerHTML = "Kullanici Adiniz Yok"
