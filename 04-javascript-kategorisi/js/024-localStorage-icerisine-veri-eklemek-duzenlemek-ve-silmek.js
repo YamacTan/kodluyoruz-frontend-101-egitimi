@@ -13,3 +13,10 @@ console.log(localStorageEMailInfo)
 
 // localStorage icerisinden istenilen Key bilgisinin silinmesi:
 localStorage.removeItem('userEmail') // key bilgisini yazarak silebiliriz..
+
+//Genel hatlariyla setItem, getItem ve removeItem yöntemlerini kullanıyoruz. 
+//setItem kullanırken ilk parametremiz bir key, ve ikinci parametremiz bir value.
+//Sonrasinda getItem kullnaımında key girerek atanmış olan valueyu cagırabilir ve degiskene atama yapabiliriz. 
+//localStorage mantıgı, hangi websitesine girdiysek onun icinde veriyi tutar.
+//Bu iki kayıt türü arasındaki en temel fark 
+//localStorage kayıtları zaman aşımı olmaksızın tutarken sessionStorage kayıtları oturum sonlanana kadar ya da veri kaybolana kadar tutmaktadır. 
